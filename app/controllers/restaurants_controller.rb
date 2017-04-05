@@ -3,7 +3,7 @@ before_action :set_restaurant, only: [:show, :edit, :update, :destroy]
 
   def index
     # get and show all restaurants
-    @restaurant = Restaurant.all
+    @restaurants = Restaurant.all
   end
 
   def new
